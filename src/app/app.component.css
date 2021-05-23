@@ -2,9 +2,15 @@
 *{
   margin: 0;
   box-sizing: border-box;
-  
 }
 
+body{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: rgb(212 163 163 / 14%);;
+  padding:5px;
+  height: 100vh;
+}
 form{
   background-color: rgb(201, 220, 236);
   border: 2px solid black;
