@@ -26,10 +26,11 @@ export class AppComponent  {
   loginClick() {
     if (this.loginForm.value.Email== this.login.email && this.loginForm.value.Password== this.login.password)
     {
-        alert("Login Successfull");
+        // alert("Login Successfull");
         // location.pathname=('/home');
         this.isClicked=false;
         this.isLogged=true;
+        this.loginForm.reset();
 
     }
     else{

@@ -14,6 +14,7 @@ body{
 form{
   background-color: rgb(201, 220, 236);
   border: 2px solid black;
+  border-radius: .6rem;
   margin:20vh auto 5px auto;
   align-content: center;
   width: 300px;
