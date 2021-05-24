@@ -31,6 +31,7 @@ export class AppComponent  {
         this.isClicked=false;
         this.isLogged=true;
         this.loginForm.reset();
+        console.log("login clicked");
 
     }
     else{
