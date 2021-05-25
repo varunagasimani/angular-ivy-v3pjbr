@@ -1,9 +1,0 @@
-.carousel-inner{
-  top:10vh;
-  height:80vh;
-}
-.nav{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}

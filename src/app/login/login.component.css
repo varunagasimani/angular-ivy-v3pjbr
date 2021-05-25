@@ -1,0 +1,76 @@
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.form-outer{
+  position: relative;
+  background-color: rgb(223, 231, 253);
+  height:100vh;
+  padding: 1px;
+  margin-top: 0;
+}
+form{
+  background-color: rgb(194, 197, 170);
+  border: 2px solid black;
+  border-radius: .6rem;
+  margin:20vh auto 5px auto;
+  align-content: center;
+  width: 300px;
+  height: fit-content;
+  padding: 5px;
+  background-size: contain;
+
+}
+
+.container{
+  
+  margin-top: 10%;
+}
+.div-inp{
+  width:200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div-but{
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+#login{
+  width:80px;
+  height: 80px;
+  display: flex;
+  flex-wrap:wrap;
+  align-content: center;
+  
+}
+.msg{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  position: relative;
+  text-align: center;
+  color: red;
+  font-weight: bold ;
+}
+
+.or {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.5rem;
+}
+.or:before, p:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 0.1px solid;
+  margin: auto;
+}
+.or:before {
+  margin-right: 5px
+}
+.or:after {
+  margin-left: 5px
+}
+

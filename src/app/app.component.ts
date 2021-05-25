@@ -5,52 +5,10 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+  styleUrls: ['./app.component.css']
 })
-export class AppComponent  {
-  isClicked:boolean=true;
-  isLogged:boolean=false;
-  login = { email: 'varunshooter@gmail.com', password: 'varun' };
-  loginForm: FormGroup;
-  
-  constructor(private fb: FormBuilder, private router: Router) {}
-  
+export class AppComponent {
+  constructor() {}
 
-  ngOnInit() {
-    this.loginForm = this.fb.group({
-      Email: ['', Validators.required],
-      Password: ['', Validators.required]
-    });
-  }
-
-  loginClick() {
-    if (this.loginForm.value.Email== this.login.email && this.loginForm.value.Password== this.login.password)
-    {
-        // alert("Login Successfull");
-        // location.pathname=('/home');
-        this.isClicked=false;
-        this.isLogged=true;
-        this.loginForm.reset();
-        console.log("login clicked");
-
-    }
-    else{
-      alert("Invalid Credentials");
-    }
-    
-    
-    console.log(this.login);
-  }
-
-  logoutClick(){
-    this.isLogged=false;
-    this.isClicked=true;
-  }
-
+  ngOnInit() {}
 }
-
-
-
-
-
-
