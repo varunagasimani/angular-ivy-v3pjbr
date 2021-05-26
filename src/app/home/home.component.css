@@ -1,35 +1,111 @@
-.main-conatiner{
+.home-page-container{
+  padding-top: 100px;
+  background-color: rgb(44, 83, 212);
+  overflow-x: hidden;
+}
+
+.first-page-items {
   display: flex;
-  flex-direction: row;
-  background-color: rgb(0, 150, 199);
+  margin-left: 100px;
+  align-items: center;
+  
+  justify-items: center;
+}
+
+.build-item {
+  display: flex;
+  flex-direction:column ;
   height: calc(100vh - 100px);
+  width: fit-content;
+  flex-basis: 0;
+  flex-grow: 1;
+  justify-content: center;
+}
+.build-item> h1{
+  font-size: 60px;
+}
+.img-item {
+  width: fit-content;
+}
+.build-item-but {
+  display: flex;
+  align-items: center;
 }
 
-.but-google-play,.but-appstore {
+.google-play {
+  width: 30px;
+  padding-right: 5px;
+}
+.google-play-button {
+  display: flex;
   border: 2px solid rgb(25, 87, 168);
-  border-radius: 50px;
-  width: 150px;
-  height: 55px;
   background-color: white;
+  margin-right: 15px;
+  border-radius: 50px;
   font-size: 20px;
-  color: rgb(28, 69, 156);
-  margin-right: 20px;
+  width: 200px;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
-.container{
-  margin-left: 100px ;
-  margin-top:100px;
-  width: 800px;
-}
-
-.build-text> h1{
-  font-size: 65px;
+.google-play-button:hover{
+  
+  box-shadow: 5px 5px 15px 0px black;
 }
 
-.nav-botton{
-  margin-top: 50px;
+.app-store {
+  width: 30px;
+
+  padding-right: 5px;
+}
+.app-store-button {
+  display: flex;
+  border: 2px solid rgb(25, 87, 168);
+  background-color: white;
+  border-radius: 50px;
+  font-size: 20px;
+  width: 200px;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+  
+  cursor: pointer;
+}
+.app-store-button:hover{
+  
+  box-shadow: 5px 5px 15px 0px black;
+}
+.build-item-but>a{
+  text-decoration: none;
+  color:black;
+  justify-items: center;
+}
+.img-item{
+  border-radius: 15px;
+  margin-right: -140px;
 }
 
-.banner{
-    margin-top:50px;
-    border-radius: 20px;
+.second-page-container{
+  display: flex;
+  padding:200px 100px 200px 100px;
+}
+.second-page-item{
+  padding: 20px;
+  margin-right: 30px;
+  border-radius: 10px;
+  width: max-content;
+  
+  background-color: white;
+  text-align: left;
+  
+  box-shadow: 0px 5px 15px 0px black;
+}
+
+.second-page-item:hover{
+   transform: translateY(5px);
+   
+}
+.second-page-img{
+  text-align: center;
 }
