@@ -83,7 +83,7 @@
 }
 .img-item{
   border-radius: 15px;
-  margin-right: -140px;
+  margin-right: -140px
 }
 
 .second-page-container{
@@ -103,9 +103,26 @@
 }
 
 .second-page-item:hover{
-   transform: translateY(5px);
+   /* transform: translateY(5px); */
    
 }
 .second-page-img{
   text-align: center;
+}
+
+.third-page-container{
+  display: flex;
+  
+  box-sizing: border-box;
+  align-content: center;
+  padding:0px 100px 100px 70px;
+}
+
+.third-page-item{
+  padding-right: 100px;
+}
+
+.third-page-img{
+  height:500px;
+  padding-right: 100px;
 }
