@@ -12,10 +12,11 @@ import { BaseComponent } from './base/base.component';
 import { ServicesComponent } from './services/services.component';
 import { PagesComponent } from './pages/pages.component';
 import { BlogComponent } from './blog/blog.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AdminRoutingModule,ReactiveFormsModule],
-  declarations: [ AppComponent, HomeComponent, AboutComponent, ContactComponent, LoginComponent, BaseComponent, ServicesComponent, PagesComponent, BlogComponent],
+  declarations: [ AppComponent, HomeComponent, AboutComponent, ContactComponent, LoginComponent, BaseComponent, ServicesComponent, PagesComponent, BlogComponent, ProfileComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

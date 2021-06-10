@@ -1,0 +1,7 @@
+<form [formGroup]="profDet">
+  <input type="text" placeholder="Name" formControlName="name">
+  <br>
+  <input type="text" placeholder="Age" formControlName="age">
+  <br>
+  <button [disabled]="profDet.invalid" (click)="addProfile()">Submit</button>
+</form>
